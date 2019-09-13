@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 3.8rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -160,6 +163,18 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+  margin: 1% 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +184,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #e8f1ff;
+  width: 90vw;
+  margin: 2% 2% 0 2%;
+}
+.nav-header h1 {
+  margin: 1.5% 0;
 }
 .home .intro h2 {
   padding: 15px;
