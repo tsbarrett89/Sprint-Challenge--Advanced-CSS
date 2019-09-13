@@ -4,3 +4,15 @@
     flex-direction: @direction;
     justify-content: @justify;
 }
+
+.btn-style (@radius, @background, @color){
+    font-size: 2rem;
+    border-radius: @radius;
+    background: @background;
+    color: @color;
+
+    &:hover {
+            background: @color;
+            color: @background;
+        }
+    }
